@@ -1,0 +1,59 @@
+.barra {
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.barra a {
+    text-decoration: none;
+    color: rgb(117, 114, 114);
+    margin: 0 10px;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.barra a:hover {
+    background-color: #c2c2c2;
+}
+
+label {
+    color: #f2f2f2
+}
+
+.profile-pic {
+    display: block;
+    /* Exibe a imagem como um bloco */
+    margin: 0 auto;
+    /* Centraliza a imagem horizontalmente */
+    width: 200px;
+    /* Largura da imagem */
+    height: 200px;
+    /* Altura da imagem */
+    border-radius: 50%;
+    /* Arredonda as bordas para criar o formato circular */
+    border: 10px solid #2c6499;
+    /* Borda branca de 5px */
+    box-shadow: 0 0 20px rgba(192, 180, 180, 0.5);
+    /* Adiciona uma sombra à imagem */
+}
+h2{
+    color: #f2f2f2;
+}
+.menu-bar a {
+    color: #f5faf5;
+    margin: 0 20px;
+    text-decoration: none;
+}
+
+.menu-bar a:hover {
+    color: #fff;
+}
+
+section {
+    margin-top: 50px;
+}
+body {
+    background-color: #0a0a0a;
+  }
